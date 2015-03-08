@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>paris mitton</title>
+    <description>Example description</description>
+    <link>http://parismitton.com/blog/</link>
+    <atom:link href="http://parismitton.com/blog/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Hello, World!</title>
+        <description>&lt;p&gt;Just the beginning.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Mar 2015 05:31:19 -0700</pubDate>
+        <link>http://parismitton.com/blog/blog/hello-world/</link>
+        <guid isPermaLink="true">http://parismitton.com/blog/blog/hello-world/</guid>
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,41 @@
+# Site settings
+title:       paris mitton
+email:       paris@parismitton.com
+author:      Paris Mitton
+description: "Example description"
+baseurl:     ""
+url:         "http://parismitton.com/blog"
+
+# Google analytics
+google_analytics:
+
+# Optional features
+animated:           false
+show_related_posts: false
+show_post_footers:  false
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname:
+
+# Social icons
+show_social_icons: true
+github_username: parismi
+stackoverflow_id:
+twitter_username: parismitton
+google_plus_id:
+linkedin_username: paris-mitton
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Build settings
+markdown:     redcarpet
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     4
+paginate_path: "/blog/:num/"
+permalink: /blog/:title/
+sass:
+  compressed: true
